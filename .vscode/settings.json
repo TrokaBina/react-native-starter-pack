@@ -1,33 +1,33 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.addMissingImports": "always",
-        "source.organizeImports": "always",
-        "source.formatDocument": "always",
-        "source.fixAll.eslint": "always"
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false,
-    "editor.formatOnSaveMode": "file",
-    "editor.linkedEditing": true,
-    "editor.rulers": [120],
-    "files.autoSave": "onFocusChange",
-    "jest.runMode": "on-save",
-    "jest.outputConfig": {
-        "revealOn": "error",
-        "revealWithFocus": "test-results",
-        "clearOnRun": "none"
-    },
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "typescript.preferences.autoImportFileExcludePatterns": [
-        "*/list/internal/**",
-        "app/platform/components/**/internal/*",
-        "**/*.android.ts",
-        "**/*.android.tsx",
-        "**/*.ios.ts",
-        "**/*.ios.tsx",
-        "**/*.web.ts",
-        "**/*.web.tsx",
-        "**/*.native.ts",
-        "**/*.native.tsx"
-    ]
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "always",
+    "source.organizeImports": "always",
+    "source.formatDocument": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveMode": "file",
+  "editor.linkedEditing": true,
+  "editor.rulers": [120],
+  "files.autoSave": "onFocusChange",
+  "jest.runMode": "on-save",
+  "jest.outputConfig": {
+    "revealOn": "error",
+    "revealWithFocus": "test-results",
+    "clearOnRun": "none"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "*/list/internal/**",
+    "app/platform/components/**/internal/*",
+    "**/*.android.ts",
+    "**/*.android.tsx",
+    "**/*.ios.ts",
+    "**/*.ios.tsx",
+    "**/*.web.ts",
+    "**/*.web.tsx",
+    "**/*.native.ts",
+    "**/*.native.tsx"
+  ]
 }

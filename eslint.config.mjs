@@ -1,10 +1,9 @@
 import pluginJs from '@eslint/js';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import pluginReact from 'eslint-plugin-react';
+import reactJsxRuntime from 'eslint-plugin-react/configs/jsx-runtime.js';
 import globals from 'globals';
 import tseslint, { parser } from 'typescript-eslint';
-// const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended');
-
 export default [
     { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
     {
@@ -17,11 +16,10 @@ export default [
     pluginJs.configs.recommended,
     ...tseslint.configs.recommended,
     ...tseslint.configs.stylistic,
-    //  'tseslint/no-require-imports': 'off'
     pluginReact.configs.flat.recommended,
+    reactJsxRuntime,
     {
         rules: {
-            'react/react-in-jsx-scope': 'off',
             '@typescript-eslint/no-require-imports': 'warn',
         },
     },

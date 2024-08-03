@@ -4,8 +4,6 @@
     "eslint",
     "jest --bail --coverage=false --findRelatedTests --passWithNoTests"
   ],
-  "**/*.{json,yml,yaml,md}": [
-    "prettier --check --no-error-on-unmatched-pattern"
-  ],
+  "**/*.{json,yml,yaml,md}": ["prettier --check --no-error-on-unmatched-pattern"],
   "**/*.{png,jpeg,jpg,gif}": ["imagemin-lint-staged"]
 }

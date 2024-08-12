@@ -25,6 +25,6 @@ export default [
   },
   eslintPluginPrettierRecommended,
   {
-    ignores: ['scripts/', 'commitlint.config.js', 'babel.config.js', 'node_modules'],
+    ignores: ['scripts/', 'commitlint.config.js', 'babel.config.js', 'node_modules', 'expo-env.d.ts'],
   },
 ];

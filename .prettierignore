@@ -5,3 +5,4 @@ babel.config.js
 commitlint.config.js
 public
 *.md
+expo-env.d.ts

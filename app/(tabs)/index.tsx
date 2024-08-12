@@ -4,6 +4,7 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { Button } from '@/platform/components/buttons/ButtonFrame';
 
 export default function HomeScreen() {
   return (
@@ -16,6 +17,13 @@ export default function HomeScreen() {
         />
       }
     >
+      <Button
+        size={'$8'}
+        alignSelf="flex-end"
+        // backgroundColor={'$brand-primary'}
+      >
+        <Button.Text>Hello world</Button.Text>
+      </Button>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />
